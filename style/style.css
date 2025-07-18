@@ -53,6 +53,7 @@
 
 .banner-contents img {
     margin-top: 30px;
+    margin-bottom: -4px;
 }
 
 .banner-title {
@@ -75,6 +76,102 @@
 .clr {
     color: #E55473;
 }
+
+/* Features Flowers styles */
+.feature-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+    margin-bottom: 24px;
+}
+
+.feature-description {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.feature-info {
+    text-align: center;
+}
+
+.flowers-card {
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top:48px;
+}
+
+/* flower card */
+/* card-1 */
+.card-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.card-1 p {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    color: #272727;
+}
+
+.card-1 img {
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+/* card-2 */
+.card-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.card-2 p {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    color: #272727;
+    margin-top: 80px;
+}
+
+.card-2 img {
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+/* card-3 */
+.card-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.card-3 p {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    color: #272727;
+}
+
+.card-3 img {
+    margin-top: 67px;
+    margin-left: 70px;
+}
+
+
+
+
 
 
 /* Small devices responsive */
