@@ -94,5 +94,35 @@
 
     .banner-title {
         font-size: 50px;
+        margin-top: 10px;
+    }
+}
+
+/* medium device responsive */
+@media screen and (min-width:576px) and (Max-width:992px) {
+    .banner-container {
+        background-color: #FCEEF1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-primary {
+        margin-left: 350px;
+    }
+
+    .banner-description {
+        margin-left: 130px;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 60px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .banner-contents {
+        flex-direction: column;
+        align-items: center;
     }
 }
