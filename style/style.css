@@ -11,15 +11,33 @@
 .dp-text {
     color: #2727279b;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #E55473;
     color: white;
     font-size: 20px;
     padding: 20px 40px;
     border-radius: 8px;
     border: none;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
+.btn-primary:focus {
+    outline: none;
+}
+
+.btn-primary:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+
 
 /* banner section styles */
 .banner-container {
@@ -43,14 +61,38 @@
     margin-bottom: 30px;
     margin-top: 80px;
 }
+
 .banner-description {
     width: 634px;
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 .banner-info {
     margin-top: 100px;
 }
-.clr{
+
+.clr {
     color: #E55473;
+}
+
+
+/* Small devices responsive */
+
+@media screen and (max-width:576px) {
+    .banner-contents {
+        flex-direction: column;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
+    .banner-contents img {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
 }
