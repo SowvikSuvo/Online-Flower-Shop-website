@@ -2,6 +2,11 @@
   font-family: "Lato", sans-serif;
   font-style: normal;
 }
+* {
+  image {
+    max-width: 100%;
+  }
+}
 
 /* shared styles */
 .display-flex {
@@ -191,14 +196,39 @@
   font-weight: 600;
   text-align: center;
 }
-.support-container {
+/* deal styles */
+.deal-container {
+  background-color: #fceef1;
+  height: 620px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  justify-content: center;
+  align-items: center;
+  gap: 185px;
+}
+.deal-left {
+  text-align: center;
+}
+.deal-left h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.deal-left p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+#off {
+  color: #e55473;
 }
 
 /* Small devices responsive */
 
 @media screen and (max-width: 576px) {
   .banner-contents,
-  .flowers-card {
+  .flowers-card,
+  .support-container,
+  .deal-container {
     flex-direction: column;
   }
   .flowers-card {
@@ -221,6 +251,12 @@
   .banner-title {
     font-size: 50px;
     margin-top: 10px;
+  }
+  .support-container {
+    background: none;
+  }
+  .deal-container {
+    background: none;
   }
 }
 
